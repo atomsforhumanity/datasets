@@ -66,7 +66,8 @@ body:
     id: formats
     attributes:
       label: Preferred file formats
-      placeholder: "e.g. extxyz, HDF5, Parquet/CSV, QCSchema JSON"
+      description: "AFH qcdata is our open data model for quantum chemistry results (github.com/atomsforhumanity/qcdata)."
+      placeholder: "e.g. AFH qcdata, extxyz, HDF5, Parquet/CSV, QCSchema JSON"
     validations:
       required: false
   - type: textarea

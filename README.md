@@ -22,13 +22,17 @@ with its full provenance, so anyone can use it, cite it and build on it.
 
 ## What we can compute
 
-- **Density functional theory and Hartree–Fock** with linus, our open-source, GPU-accelerated code (public
-  release coming soon): energies, analytic gradients and Hessians, vibrational
+- **Density functional theory and Hartree–Fock** with [linus](https://github.com/atomsforhumanity/linus), our
+  open-source, GPU-accelerated code (`pip install afh-linus`): energies, analytic gradients and Hessians, vibrational
   frequencies and IR intensities, dipoles and polarizabilities, implicit solvent (C-PCM), closed and open
   shells, from small molecules to systems of several hundred atoms.
-- **Other established codes** where their licences allow the results to be published: for example
-  semiempirical and tight-binding methods (GFN2-xTB, g-xTB), conformer ensembles (CREST), geometry
-  optimizations, transition states and reaction paths.
+- **Semiempirical tight binding** with [axtb](https://github.com/atomsforhumanity/axtb), our open-source
+  extended tight-binding code (GFN2-xTB, g-xTB, GFN-FF; `pip install axtb`): fast energies, forces,
+  frequencies and geometries for large numbers of structures.
+- **Other established codes** where their licences allow the results to be published: for example conformer
+  ensembles (CREST), geometry optimizations, transition states and reaction paths.
+- **Structured results** in [AFH qcdata](https://github.com/atomsforhumanity/qcdata), our open data model
+  for quantum chemistry inputs and outputs, or in the format your tools need.
 - **At scale:** thousands to millions of calculations, with the settings, program versions and hardware of
   every record kept.
 
