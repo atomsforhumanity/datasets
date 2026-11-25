@@ -32,6 +32,11 @@ with its full provenance, so anyone can use it, cite it and build on it.
 
 ## What we can compute
 
+This is what our tools do today, not a limit on what we can make. We build and extend codes quickly, and we
+validate every new capability against established programs before using it: linus went from its first commit to
+a validated public release in 13 days. If the dataset you need calls for another property, method or level of
+theory, we can add it.
+
 - **Density functional theory and Hartree–Fock** with [linus](https://github.com/atomsforhumanity/linus), our
   open-source, GPU-accelerated code (`pip install afh-linus`): energies, analytic gradients and Hessians, vibrational
   frequencies and IR intensities, dipoles and polarizabilities, implicit solvent (C-PCM), closed and open
@@ -45,6 +50,10 @@ with its full provenance, so anyone can use it, cite it and build on it.
   for quantum chemistry inputs and outputs, or in the format your tools need.
 - **At scale:** thousands to millions of calculations, with the settings, program versions and hardware of
   every record kept.
+
+- **More on request:** for example post-HF methods (MP2, coupled cluster such as CCSD(T)), excited states,
+  NMR and other spectroscopic properties, other basis sets and functionals, relativistic effects, explicit
+  solvation or molecular dynamics. Tell us what the science needs and we will scope it with you.
 
 Not sure whether something is possible? Ask. Part of the point of this repository is to find out together.
 
