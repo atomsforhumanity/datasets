@@ -1,0 +1,26 @@
+name: Problem with a released dataset
+description: Report a wrong value, a missing record, or a documentation problem in a dataset we released.
+title: "[Dataset problem] "
+labels: ["dataset problem"]
+body:
+  - type: input
+    id: dataset
+    attributes:
+      label: Dataset and version
+      placeholder: "The dataset's name and version, or the link to its record"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong
+      description: Which records or files, what you expected, and what you found. A small reproducing example helps.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: How you checked
+      description: For example a recomputation with another program, the settings you used, or a link to a discussion.
+    validations:
+      required: false

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Propose a dataset
+    url: https://github.com/atomsforhumanity/datasets/discussions/new?category=ideas
+    about: Dataset ideas and requests live in Discussions, where others can support and refine them.
+  - name: Ask a question
+    url: https://github.com/atomsforhumanity/datasets/discussions/categories/q-a
+    about: Questions about what we can compute, released datasets, or how this works.
+  - name: Talk to us privately
+    url: mailto:datasets@afh.org
+    about: Email datasets@afh.org, for example if your plans aren't public yet.

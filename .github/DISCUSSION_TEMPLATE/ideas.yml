@@ -1,0 +1,93 @@
+title: "[Dataset request] "
+labels: ["status: proposed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a dataset! Rough ideas are welcome: answer what you can, and write
+        "not sure" anywhere else. We'll work out the details with you in this thread.
+        Prefer to talk privately first? Email **datasets@afh.org**.
+  - type: textarea
+    id: summary
+    attributes:
+      label: The dataset in one or two sentences
+      placeholder: "e.g. DFT energies, forces and dipoles for 50k drug-like molecules in water, to train and test ML potentials"
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: How would you, or others, use it?
+      description: The most useful part of a request. What does it make possible that isn't possible today? Is there a gap in existing datasets it fills?
+    validations:
+      required: true
+  - type: textarea
+    id: space
+    attributes:
+      label: Chemical space
+      description: Which molecules or materials? Elements, charges and spin states, size range (atoms), conformers? Do you have a source of structures (an existing dataset, SMILES, a generation rule)?
+    validations:
+      required: false
+  - type: checkboxes
+    id: properties
+    attributes:
+      label: Properties you need
+      options:
+        - label: Energies
+        - label: Forces / gradients
+        - label: Hessians, vibrational frequencies, IR intensities
+        - label: Dipoles, polarizabilities, charges
+        - label: Orbitals, densities or other wavefunction data
+        - label: Optimized geometries
+        - label: Conformer ensembles
+        - label: Transition states / reaction paths
+        - label: Implicit solvent results
+        - label: Something else (describe below)
+  - type: textarea
+    id: accuracy
+    attributes:
+      label: Level of theory or accuracy
+      description: A method and basis set if you have one in mind (e.g. ωB97X-D3BJ/def2-TZVP), or the accuracy your use needs; "advise me" is fine.
+    validations:
+      required: false
+  - type: dropdown
+    id: scale
+    attributes:
+      label: Roughly how many structures?
+      options:
+        - "Fewer than 1,000"
+        - "1,000 to 100,000"
+        - "100,000 to 1 million"
+        - "More than 1 million"
+        - "Not sure"
+    validations:
+      required: false
+  - type: input
+    id: formats
+    attributes:
+      label: Preferred file formats
+      placeholder: "e.g. extxyz, HDF5, Parquet/CSV, QCSchema JSON"
+    validations:
+      required: false
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints and timing
+      description: Licences of any structures you would provide, deadlines, related datasets, or anything else we should know.
+    validations:
+      required: false
+  - type: checkboxes
+    id: involvement
+    attributes:
+      label: Would you like to be involved?
+      options:
+        - label: I can help define or review the dataset
+        - label: I can provide structures or a structure-generation method
+        - label: I'd be interested in a joint analysis or publication
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Open data
+      options:
+        - label: I understand datasets computed here are published openly (CC BY 4.0 unless stated otherwise), and any structures I provide can be shared under such a licence.
+          required: true
