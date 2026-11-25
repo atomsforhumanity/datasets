@@ -1,10 +1,20 @@
 # Atoms for Humanity datasets
 
-**Tell us which chemistry datasets you need. We have the compute to make them, and we give them away.**
+**Let's build the chemistry datasets the field needs, together, and give them away.**
 
 [Atoms for Humanity](https://afh.org) runs quantum chemistry at scale on a large pool of CPUs and data-center
-GPUs. We would rather spend that capacity on datasets the community actually needs than on ones we guess at.
-This repository is where you tell us what would help your research, and where we announce what we've computed.
+GPUs, with open codes we build and test carefully. We want to make open datasets together with the people who
+will use them: you bring the scientific question, the chemistry you know, structures or a method to put to the
+test; we bring the compute, the codes and the engineering to run it at scale and document every record. The best
+datasets come from that kind of partnership, and this repository is where it starts.
+
+There are many ways in:
+
+- **Propose a dataset** you wish existed, even as a rough idea.
+- **Design one with us**: the chemical space, the level of theory, the properties, the checks.
+- **Bring the chemistry**: structures, a hard benchmark, a workflow you want run at scale.
+- **Test and use it**: validate early releases against your methods and tell us what's missing.
+- **Analyse and publish together**: substantial collaborations can lead to joint papers.
 
 Everything we compute here is released openly under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/),
 with its full provenance, so anyone can use it, cite it and build on it.
