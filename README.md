@@ -2,7 +2,7 @@
 
 **Let's build the chemistry datasets the field needs, together, and give them away.**
 
-[Atoms for Humanity](https://afh.org) runs quantum chemistry at scale on a large pool of CPUs and data-center
+[Atoms for Humanity](https://afh.org) runs quantum chemistry at scale on a large pool of CPUs and data center
 GPUs, with open codes we build and test carefully. We want to make open datasets together with the people who
 will use them: you bring the scientific question, the chemistry you know, structures or a method to put to the
 test; we bring the compute, the codes and the engineering to run it at scale and document every record. The best
